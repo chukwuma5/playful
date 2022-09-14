@@ -156,19 +156,6 @@ html{
     letter-spacing: 1.5px;
     z-index: 700;
 }
-/* .nav .menu-nav__link::after{
-    content: '';
-    position: absolute;
-    background: #ffffff;
-    bottom: 0px;
-    width: 0%;
-    height: 1px;
-    left: 0;
-    transition: 1s;
-}
-.nav .menu-nav__link:hover::after{
-    width: 100%;
-} */
 .nav .menu-nav__link:hover{
     color: rgb(249, 249, 118);
 }
@@ -349,7 +336,11 @@ text{
     opacity: 0;
 }
 
-.light {
+.rare-color{
+    text-decoration: none;
+}
+
+.light, .rare-color {
     animation: blink 10s infinite;
     color: white;
     transition: all 1s ease-in-out;
@@ -679,7 +670,10 @@ p.links {
     font-style: normal;
     text-align: start;
 }
-.move-1{
+.re-color, .rer-colors, .rare-color {
+    text-decoration: none;
+}
+.move-1,.re-color{
     color: white;
     opacity: .2;
     animation: agba 5s infinite;
@@ -779,10 +773,10 @@ p.links {
 .break-4.new-4-check {
     margin: -15px 0 0;
 }
-.move-reset{
+.move-reset,.re-color{
     color: #ebf0f6;
 }
-.move-1.move-reset-2{
+.move-1.move-reset-2,.rer-colors{
     opacity: 1;
     animation: blink 10s infinite;
     color: white;
@@ -970,6 +964,9 @@ aside{
           transform: none;
       }
   }
+  .rer-colors{
+text-decoration: none;
+  }
 .move-1.reset-move {
     font-size: 10rem;
     margin-top: 80px;
@@ -1101,6 +1098,9 @@ h2.creative{
     90% {
         width: 100%;
     }
+}
+.re-color,.rer-colors,.rare-color{
+    text-decoration: none;
 }
 /*Media query sections*/
 /*for all laptop, tablet ,ipad and mobile sizes screen sizes  */
@@ -1289,7 +1289,7 @@ strong.break-7 {
     font-weight: normal;
     margin: -15px 0 0;
 }
-.move-1 {
+.move-1,.re-color {
     font-size: 8rem;
     color: white;
     opacity: .2;
