@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Antiga';
+    src: local('Antiga Regular'), local('Antiga-Regular'),
+        url('Antiga-Regular.woff2') format('woff2'),
+        url('Antiga-Regular.woff') format('woff'),
+        url('Antiga-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p.reel>em, .picture-one, .move-1{
+      text-align: center;
+      font-style: normal;
+      font-family: 'Antiga';
+      font-weight: normal;
+      font-style: normal;
+      /* font-family: 'Great Vibes', cursive; */
+  }
