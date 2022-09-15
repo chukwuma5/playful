@@ -1558,6 +1558,7 @@ figure>img{
         font-size: 1.3rem;
         margin-top: 5px;
         letter-spacing: 1px;
+        z-index: 700;
     }
     
     .first-section .redo{
