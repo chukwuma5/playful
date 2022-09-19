@@ -812,7 +812,6 @@ p.links {
     position: relative;
     text-align: center;
     color: white;
-    /* z-index: -1; */
     z-index: 0;
 }
 
